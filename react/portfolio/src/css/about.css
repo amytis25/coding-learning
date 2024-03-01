@@ -1,0 +1,315 @@
+
+div {
+	width: 1000px ;
+
+}
+	body {
+	 
+
+		
+
+		/* font settings*/
+		  font-family: monospace;
+		  text-decoration: none;
+		  
+		/* color settings*/
+		  background-color: #E2E1FF;
+		  color: #E2E1FF;
+		  
+
+		/* margin settings*/
+	 
+		  
+		/* align settings*/
+
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  text-align: center;
+			 
+		  
+		 /*dimensions*/
+
+	}
+	table {
+		/* font settings*/
+		  font-family: monospace;
+		  text-decoration: none;
+		  
+		/* color settings*/
+			background-color: #FCEAEF;
+
+		/* margin settings*/
+	 		margin-top: 0px;
+		  
+		/* align settings*/
+
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  text-align: center;
+			 
+		  
+		 /*dimensions*/
+		
+		
+	}
+	input {
+		/* font settings*/
+		  font-family: monospace;
+		  text-decoration: none;
+		  
+		/* color settings*/
+		
+
+		/* margin settings*/
+	 		margin-top: 0px;
+			margin-left: 10px;
+			margin-right: 10px;
+		  
+		/* align settings*/
+
+		  
+		 /*dimensions*/
+		width: 400px;
+		
+	}
+	
+	form{
+		/* font settings*/
+		  font-family: monospace;
+		  text-decoration: none;
+		  
+		/* color settings*/
+		
+
+		/* margin settings*/
+	 		margin-top: 0px;
+			margin-left: 10px;
+			margin-right: 10px;
+		  
+		/* align settings*/
+
+	display: grid;
+	justify-content: left;
+	vertical-align: top;
+			 
+		  
+		 /*dimensions*/
+	
+		
+	
+	}
+	td {
+		/* font settings*/
+		  font-family: monospace;
+		  text-decoration: none;
+		  
+		/* color settings*/
+
+		/* margin settings*/
+	 
+		  
+		/* align settings*/
+
+
+		  text-align: center;
+			 
+		  
+		 /*dimensions*/
+		  
+		  width : 600px;
+
+	
+
+		
+	}
+	th {
+		/* font settings*/
+		  font-family: monospace;
+		  text-decoration: none;
+		  
+		/* color settings*/
+
+		/* margin settings*/
+	 
+		  
+		/* align settings*/
+
+	
+		
+		  justify-content: center;
+		  align-items: center;
+		  text-align: center;
+			 
+		  
+		 /*dimensions*/
+		  width: 100 px;
+		  height: 45 px;
+
+		
+	}
+	a{
+		width: 100px;
+		/* font settings*/
+		  font-size:18px;
+		  font-family: monospace;
+		  text-decoration: none;
+		  
+		/* color settings*/
+		  color: #52287B;
+		  
+
+		/* margin settings*/
+	 
+		  
+		/* align settings*/
+
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  text-align: center;
+			 
+		  
+		 /*dimensions*/
+		 width: 100px;
+		 
+	}
+	h1 {
+			/* font settings*/
+		  font-size: 40px;
+		  font-family: monospace;
+		  font-stretch: 20px;
+		  
+		  /* color settings*/
+		  color: white;
+		  background-color: #CF7795;
+
+		/* margin settings*/
+		  margin-bottom: 0px;	 
+		  
+		/* align settings*/
+
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  text-align: center;
+			 
+		  
+		 /*dimensions*/
+		 height: 90px;
+	
+	}
+	h2 {
+	
+		/* font settings*/
+		  font-size: 15px;
+		  font-family: monospace;
+		  
+		  /* color settings*/
+		  color: white;
+		  background-color: #E5B7D0;
+
+		/* margin settings*/
+		  margin-top: 0px;
+		  margin-bottom: 0px;	 
+		  
+		/* align settings*/
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  text-align: center;
+
+		  
+		 /*dimensions*/
+		 height: 60px;		  
+	  
+	}
+	
+	h3 {
+	
+		/* font settings*/
+		  font-size: 25px;
+		  font-family: monospace;
+		  
+		  /* color settings*/
+		  color: white;
+		  background-color: #6FB89B ;
+
+		/* margin settings*/
+		  margin-top: 0px;
+		  margin-bottom: 0px;	 
+		  
+		/* align settings*/
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  text-align: center;
+
+		  
+		 /*dimensions*/
+		 height: 50px;		  
+	  
+	}
+	
+	img {
+		/* font settings*/
+	
+		  
+		/* color settings*/
+
+
+		/* margin settings*/
+		  		  margin-top: 10px;
+		  margin-bottom: 10px;	
+		  margin-left: auto;
+		  margin-right: auto;
+		  
+		/* align settings*/
+
+		  text-align: center;
+
+		  
+		 /*dimensions*/
+		 width:75%;
+		
+	}
+
+
+
+
+tr {
+    height: 45px;
+}
+
+.tabletitle {
+		
+	margin-top: 30px;
+	margin-bottom:10px;
+
+	font-size: 30px;
+	font-weight: 3px;
+	
+	display: grid;
+	justify-content: left;
+	vertical-align: top;
+
+    height: 45px;
+	}
+
+    .table_content {
+		margin-top: 0px;
+	display: grid;
+  justify-content: left;
+  vertical-align: top;
+
+  width:600px
+	}
+	
+	.circle_crop{
+
+	  position: relative;
+	  overflow: hidden;
+	  border-radius: 50%;
+		
+	}

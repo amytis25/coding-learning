@@ -1,0 +1,47 @@
+h1 {
+/* font settings*/
+font-size: 25px;
+font-family: monospace;
+
+/* color settings*/
+color: white;
+background-color: #8f61a8 ;
+
+/* margin settings*/
+margin-top: 0px;
+margin-bottom: 0px;	 
+
+/* align settings*/
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+
+/*dimensions*/
+height: 55px;		 
+
+}
+p{
+    /* font settings*/
+font-size: 12px;
+font-family: monospace;
+
+/* color settings*/
+color: #8f61a8;
+
+
+/* margin settings*/
+margin-top: 15px;
+margin-bottom: 0px;	 
+
+/* align settings*/
+display: flex;
+justify-content: center;
+align-items: left;
+text-align: center;
+
+
+/*dimensions*/
+height: 55px;	
+}

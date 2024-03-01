@@ -1,0 +1,109 @@
+<style>
+a{
+    width: 100px;
+    /* font settings*/
+      font-size:18px;
+      font-family: monospace;
+      text-decoration: none;
+      
+    /* color settings*/
+      color: #52287B;
+      
+
+    /* margin settings*/
+ 
+      
+    /* align settings*/
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+         
+      
+     /*dimensions*/
+     width: 100px;
+     
+}
+table {
+    /* font settings*/
+      font-family: monospace;
+      text-decoration: none;
+      
+    /* color settings*/
+        background-color: #FCEAEF;
+
+    /* margin settings*/
+         margin-top: 0px;
+      
+    /* align settings*/
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+         
+      
+     /*dimensions*/
+    
+    
+}
+tr {
+    		/* font settings*/
+            font-family: monospace;
+            text-decoration: none;
+            font-size:25px;
+            
+          /* color settings*/
+  
+          /* margin settings*/
+       
+            
+          /* align settings*/
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+               
+            
+           /*dimensions*/
+            height : 45px;
+
+}
+td {
+    /* font settings*/
+    font-family: monospace;
+    text-decoration: none;
+    
+
+    /* align settings*/
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    /*dimensions*/
+    width:350px;
+}
+img {
+    /* font settings*/
+
+      
+    /* color settings*/
+
+
+    /* margin settings*/
+                margin-top: 10px;
+      margin-bottom: 10px;	
+      margin-left: auto;
+      margin-right: auto;
+      
+    /* align settings*/
+
+      text-align: center;
+
+      
+     /*dimensions*/
+     width: 95%
+    
+}
+
+</style>

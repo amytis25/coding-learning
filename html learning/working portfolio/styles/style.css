@@ -1,0 +1,340 @@
+<style>
+
+	body {
+	 
+
+		
+
+		/* font settings*/
+		  font-family: monospace;
+		  text-decoration: none;
+		  
+		/* color settings*/
+		  background-color: #E2E1FF;
+		  color: #cc99c7;
+		  
+
+		/* margin settings*/
+	 
+		  
+		/* align settings*/
+
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  text-align: center;
+			 
+		  
+		 /*dimensions*/
+
+	}
+	table {
+		/* font settings*/
+		  font-family: monospace;
+		  text-decoration: none;
+		  
+		/* color settings*/
+			background-color: #FCEAEF;
+
+		/* margin settings*/
+	 		margin-top: 0px;
+		  
+		/* align settings*/
+
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  text-align: center;
+			 
+		  
+		 /*dimensions*/
+		
+		
+	}
+	input {
+		/* font settings*/
+		  font-family: monospace;
+		  text-decoration: none;
+		  
+		/* color settings*/
+		
+
+		/* margin settings*/
+	 		margin-top: 0px;
+			margin-left: 10px;
+			margin-right: 10px;
+		  
+		/* align settings*/
+
+		  
+		 /*dimensions*/
+		width: 400px;
+		
+	}
+	
+	form{
+		/* font settings*/
+		  font-family: monospace;
+		  text-decoration: none;
+		  
+		/* color settings*/
+		
+
+		/* margin settings*/
+	 		margin-top: 0px;
+			margin-left: 10px;
+			margin-right: 10px;
+		  
+		/* align settings*/
+
+	display: grid;
+	justify-content: left;
+	vertical-align: top;
+			 
+		  
+		 /*dimensions*/
+	
+		
+	
+	}
+	td {
+		/* font settings*/
+		  font-family: monospace;
+		  text-decoration: none;
+		  
+		/* color settings*/
+
+		/* margin settings*/
+	 
+		  
+		/* align settings*/
+
+
+		  text-align: center;
+			 
+		  
+		 /*dimensions*/
+		  width: 100 px;
+
+	
+
+		
+	}
+	th {
+		/* font settings*/
+		  font-family: monospace;
+		  text-decoration: none;
+		  
+		/* color settings*/
+
+		/* margin settings*/
+	 
+		  
+		/* align settings*/
+
+	
+		
+		  justify-content: center;
+		  align-items: center;
+		  text-align: center;
+			 
+		  
+		 /*dimensions*/
+		  width: 100 px;
+
+		
+	}
+	a{
+		width: 100px;
+		/* font settings*/
+		  font-size:18px;
+		  font-family: monospace;
+		  text-decoration: none;
+		  
+		/* color settings*/
+		  color: #52287B;
+		  
+
+		/* margin settings*/
+	 
+		  
+		/* align settings*/
+
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  text-align: center;
+			 
+		  
+		 /*dimensions*/
+		 width: 100px;
+		 
+	}
+	h1 {
+			/* font settings*/
+		  font-size: 25px;
+		  font-family: monospace;
+		  font-stretch: 20px;
+		  
+		  /* color settings*/
+		  color: white;
+		  background-color: #6FB89B ;
+
+		/* margin settings*/
+		  margin-bottom: 0px;	 
+		  
+		/* align settings*/
+
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  text-align: center;
+			 
+		  
+		 /*dimensions*/
+		 height: 90px;
+	
+	}
+	h2 {
+	
+		/* font settings*/
+		  font-size: 15px;
+		  font-family: monospace;
+		  
+		  /* color settings*/
+		  color: white;
+		  background-color: #c2a8dc ;
+
+		/* margin settings*/
+		  margin-top: 5px;
+		  margin-bottom: 0px;	 
+		  
+		/* align settings*/
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  text-align: center;
+
+		  
+		 /*dimensions*/
+		 height: 50px;	
+		 	  
+	  
+	}
+	
+	h3 {
+	
+		/* font settings*/
+		  font-size: 25px;
+		  font-family: monospace;
+		  
+		  /* color settings*/
+		  color: white;
+		  background-color: #6FB89B ;
+
+		/* margin settings*/
+		  margin-top: 0px;
+		  margin-bottom: 0px;	 
+		  
+		/* align settings*/
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  text-align: center;
+
+		  
+		 /*dimensions*/
+		 height: 50px;		  
+	  
+	}
+	
+	
+	
+
+	p {
+		font-size: 16px;
+	display: grid;
+	justify-content: left;
+	vertical-align: top;
+	text-align:  justify;
+	
+	margin-right:30px;
+	margin-top: 5px;
+  }
+	.center {
+  display: grid;
+  justify-content: center;
+  vertical-align: middle;
+
+	}
+	
+	.table_content {
+		margin-top: 0px;
+	display: grid;
+  justify-content: left;
+  vertical-align: top;
+	}
+	
+	.circle_crop{
+
+	  position: relative;
+	  overflow: hidden;
+	  border-radius: 50%;
+		
+	}
+	.tabletitle {
+		
+	margin-top: 30px;
+	margin-bottom:10px;
+
+	font-size: 30px;
+	font-weight: 3px;
+	
+	display: grid;
+	justify-content: left;
+	vertical-align: top;
+	}
+/*dropdown*/
+		/* Dropdown Button */
+		.dropbtn {
+		  background-color: #04AA6D;
+		  color: white;
+		  padding: 16px;
+		  font-size: 16px;
+		  border: none;
+		}
+
+		/* The container <div> - needed to position the dropdown content */
+		.dropdown {
+		  position: relative;
+		  display: inline-block;
+		}
+
+		/* Dropdown Content (Hidden by Default) */
+		.dropdown-content {
+		  display: none;
+		  position: absolute;
+		  background-color: #f1f1f1;
+		  min-width: 160px;
+		  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		  z-index: 1;
+		}
+
+		/* Links inside the dropdown */
+		.dropdown-content a {
+		  color: black;
+		  padding: 12px 16px;
+		  text-decoration: none;
+		  display: block;
+		}
+
+		/* Change color of dropdown links on hover */
+		.dropdown-content a:hover {background-color: #ddd;}
+
+		/* Show the dropdown menu on hover */
+		.dropdown:hover .dropdown-content {display: block;}
+
+		/* Change the background color of the dropdown button when the dropdown content is shown */
+		.dropdown:hover .dropbtn {background-color: #3e8e41;}
+        
+</style>
