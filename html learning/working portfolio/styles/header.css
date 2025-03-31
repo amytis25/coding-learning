@@ -1,7 +1,6 @@
 <style>
-
-	body {
-		/* font settings*/
+.myheader{		
+	/* font settings*/
 		  font-family: monospace;
 		  text-decoration: none;
 		  
@@ -19,11 +18,56 @@
 		  justify-content: center;
 		  align-items: center;
 		  text-align: center;
+		   /*dimensions*/
 			 
-		  
-		 /*dimensions*/
-
-	}
+}
+.name {
+				/* font settings*/
+				font-size: 40px;
+				font-family: monospace;
+				font-stretch: 20px;
+				
+				/* color settings*/
+				color: white;
+				background-color: #CF7795;
+	  
+			  /* margin settings*/
+				margin-bottom: 0px;	 
+				
+			  /* align settings*/
+	  
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+				   
+				
+			   /*dimensions*/
+			   height: 90px;
+}
+.info {
+			/* font settings*/
+			font-size: 15px;
+			font-family: monospace;
+			
+			/* color settings*/
+			color: white;
+			background-color: #E5B7D0;
+  
+		  /* margin settings*/
+			margin-top: 0px;
+			margin-bottom: 0px;	 
+			
+		  /* align settings*/
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+  
+			
+		   /*dimensions*/
+		   height: 60px;	
+}
 	nav {
 		font-family: monospace;
 		text-decoration: none;
@@ -72,201 +116,15 @@
 		 width: 100px;
 		 
 	}
-	h1 {
-			/* font settings*/
-		  font-size: 40px;
-		  font-family: monospace;
-		  font-stretch: 20px;
-		  
-		  /* color settings*/
-		  color: white;
-		  background-color: #CF7795;
-
-		/* margin settings*/
-		  margin-bottom: 0px;	 
-		  
-		/* align settings*/
-
-		  display: flex;
-		  justify-content: center;
-		  align-items: center;
-		  text-align: center;
-			 
-		  
-		 /*dimensions*/
-		 height: 90px;
 	
-	}
-	h2 {
+
 	
-		/* font settings*/
-		  font-size: 15px;
-		  font-family: monospace;
-		  
-		  /* color settings*/
-		  color: white;
-		  background-color: #E5B7D0;
 
-		/* margin settings*/
-		  margin-top: 0px;
-		  margin-bottom: 0px;	 
-		  
-		/* align settings*/
-		  display: flex;
-		  justify-content: center;
-		  align-items: center;
-		  text-align: center;
 
-		  
-		 /*dimensions*/
-		 height: 60px;		  
-	  
-	}
+
 	
-	h3 {
+
 	
-		/* font settings*/
-		  font-size: 25px;
-		  font-family: monospace;
-		  
-		  /* color settings*/
-		  color: white;
-		  background-color: #6FB89B ;
 
-		/* margin settings*/
-		  margin-top: 0px;
-		  margin-bottom: 0px;	 
-		  
-		/* align settings*/
-		  display: flex;
-		  justify-content: center;
-		  align-items: center;
-		  text-align: center;
-
-		  
-		 /*dimensions*/
-		 height: 50px;		  
-	  
-	}
-	h4 {
-	
-		/* font settings*/
-		  font-size: 25px;
-		  font-family: monospace;
-		  
-		  /* color settings*/
-		  color: white;
-		  background-color: #6FB89B ;
-
-		/* margin settings*/
-		  margin-top: 25px;
-		  margin-bottom: 0px;	 
-		  
-		/* align settings*/
-		  display: block;
-		  justify-content: center;
-		  align-items: center;
-		  text-align: center;
-
-		  
-		 /*dimensions*/
-		 width: 500px;
-		 height: 50px;		  
-	  
-	}
-	h5 {
-	
-		/* font settings*/
-		  font-size: 15px;
-		  font-family: monospace;
-		  
-		  /* color settings*/
-		  color: white;
-		  background-color: #c2a8dc ;
-
-		/* margin settings*/
-		  margin-top: 0px;
-		  margin-bottom: 0px;	 
-		  
-		/* align settings*/
-		  display: block;
-		  justify-content: center;
-		  align-items: center;
-		  text-align: center;
-
-		  
-		 /*dimensions*/
-		 width: 700px;		  
-	  
-	}
-	
-	
-	
-	img {
-		/* font settings*/
-	
-		  
-		/* color settings*/
-
-
-		/* margin settings*/
-		  		  margin-top: 10px;
-		  margin-bottom: 10px;	
-		  margin-left: auto;
-		  margin-right: auto;
-		  
-		/* align settings*/
-
-		  text-align: center;
-
-		  
-		 /*dimensions*/
-		 width: 90%;
-		
-	}
-	p {
-		font-size: 16px;
-	display: grid;
-	justify-content: left;
-	vertical-align: top;
-	text-align:  justify;
-	
-	margin-right:30px;
-	margin-top: 5px;
-  }
-	.center {
-  display: grid;
-  justify-content: center;
-  vertical-align: middle;
-
-	}
-	
-	.table_content {
-		margin-top: 0px;
-	display: grid;
-  justify-content: left;
-  vertical-align: top;
-	}
-	
-	.circle_crop{
-
-	  position: relative;
-	  overflow: hidden;
-	  border-radius: 50%;
-		
-	}
-	.tabletitle {
-		
-	margin-top: 30px;
-	margin-bottom:10px;
-
-	font-size: 30px;
-	font-weight: 3px;
-	
-	display: grid;
-	justify-content: left;
-	vertical-align: top;
-	}
-
-        
+}       
 </style>

@@ -29,3 +29,19 @@ class Header extends HTMLElement {
 }
 
 customElements.define('my-header', Header);
+document.querySelector('.scroll-container').addEventListener('wheel', function(event) {
+  event.preventDefault();
+  const scrollAmount = 100;
+  
+  if (event.deltaY > 0) {
+      this.scrollBy({
+          top: scrollAmount,
+          behavior: 'smooth'
+      });
+  } else {
+      this.scrollBy({
+          top: -scrollAmount,
+          behavior: 'smooth'
+      });
+  }
+});
